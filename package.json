@@ -1,0 +1,55 @@
+{
+  "name": "interactive-data-dashboard",
+  "version": "1.0.0",
+  "description": "A React-based interactive data dashboard with multiple chart types, real-time updates, and export functionality",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npx http-server public -p 3000 -o",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/",
+    "build": "node scripts/build.js",
+    "simulate-commits": "node simulate_commits.js"
+  },
+  "keywords": [
+    "react",
+    "dashboard",
+    "charts",
+    "data-visualization",
+    "interactive",
+    "analytics"
+  ],
+  "author": "Mani <myfamily9006@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "eslint": "^8.57.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.1"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "testMatch": [
+      "**/tests/**/*.js"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 70,
+        "functions": 70,
+        "lines": 70,
+        "statements": 70
+      }
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
