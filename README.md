@@ -340,6 +340,20 @@ Built with care using React, Chart.js, and modern JavaScript. No complex bundler
 
 <!-- showcase:start -->
 
+## Research Report
+
+**Interactive Time-Series Dashboards as a Visual-Analytics Pattern**
+
+_An evaluation of perceptual scalability and rendering performance over the NYC Open Data taxi corpus_
+
+A self-contained research-grade report (Abstract, Introduction, Research Problem, Research Questions, Literature Review, Research Method, Data Description, Analysis, Discussion, Conclusion, Future Work, References) is published with this repository.
+
+[Read the full report (PDF)](docs/research_report.pdf)
+
+**Keywords:** data visualization, interactive dashboards, downsampling, Chart.js, React
+
+![Research metrics](docs/research_metrics.png)
+
 ## Architecture
 
 ```mermaid
