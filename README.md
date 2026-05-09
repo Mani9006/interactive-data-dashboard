@@ -335,3 +335,37 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 ---
 
 Built with care using React, Chart.js, and modern JavaScript. No complex bundlers required!
+
+---
+
+<!-- showcase:start -->
+
+## Architecture
+
+```mermaid
+flowchart LR
+    A[Data Generator] --> B[React Dashboard]
+    B --> C1[Chart.js Line/Bar]
+    B --> C2[Aggregations<br/>day/week/month]
+    B --> C3[KPI Cards]
+    A --> D[Mock Time Series]
+```
+
+## Test Results
+
+![Test results](docs/test_results.png)
+
+**84 passing**, **0 failing**, **2 skipped** (total 86, framework: Jest)
+
+## References & Further Reading
+
+- Tufte, E. R. (2001). *The Visual Display of Quantitative Information* (2nd ed.). Graphics Press.
+- Cleveland, W. S. (1985). *The Elements of Graphing Data.* Wadsworth.
+
+## Author
+
+**Manikanta Reddy Mandadhi** — Senior Data Scientist (RAG / Agentic AI)
+
+GitHub: [@Mani9006](https://github.com/Mani9006/interactive-data-dashboard) · LinkedIn: [reddy1999](https://www.linkedin.com/in/reddy1999) · Portfolio: [manikantabio.com](https://www.manikantabio.com)
+
+<!-- showcase:end -->
